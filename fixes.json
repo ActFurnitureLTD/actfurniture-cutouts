@@ -26,7 +26,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_05d163262d02495db956755e0d1c514c": {
-  "drop": true
+  "source": "86c0c7_e4cca541ecd34fe986da44fb71f63417~mv2.jpeg"
  },
  "86c0c7_06863e2c20734ef39c88e7e63bd9814e": {
   "grey": {},
@@ -110,7 +110,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_1049f24e773d49869a73e6b262480609": {
-  "drop": true
+  "source": "86c0c7_fc7d8074d53c48039fc61524155bbd98~mv2.jpeg"
  },
  "86c0c7_107c425750ff4921931dd330c8d3bc45": {
   "grey": {},
@@ -169,7 +169,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_1d5ad48b24b544f5a116777a8a520351": {
-  "drop": true
+  "source": "86c0c7_73c4663aae074ad986015c2fe1b37505~mv2.jpeg"
  },
  "86c0c7_1e5f6a975cc3426f9d90eab1207a29b3": {
   "model": "birefnet-general",
@@ -189,7 +189,7 @@
   "wall": 0
  },
  "86c0c7_21d7d36ed991443fb03889d196747c60": {
-  "drop": true
+  "source": "86c0c7_4381924efeb64b8cb9400dd4468c633f~mv2.jpeg"
  },
  "86c0c7_21e0df0e45184a409fda126a1787517e": {
   "grey": {},
@@ -212,10 +212,10 @@
   "model": "birefnet-general"
  },
  "86c0c7_250fdecddfe44845862490228a9353b8": {
-  "drop": true
+  "source": "86c0c7_1b138dde402047b28f92153d26830c80~mv2.jpeg"
  },
  "86c0c7_26b91d2b8828411582fc620c938fc695": {
-  "drop": true
+  "source": "86c0c7_545a9135d7cd4f4484eda83cc50397cb~mv2.jpeg"
  },
  "86c0c7_273f038d163043018532b10e7022d386": {
   "grey": {},
@@ -402,7 +402,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_426bca30a04446cea4dd832695f54214": {
-  "drop": true
+  "source": "86c0c7_d0b71b01b1ae4fbab73ff7757a8a0141~mv2.jpeg"
  },
  "86c0c7_439d854b2482437eab5bc04bdf8a7d04": {
   "grey": {},
@@ -429,7 +429,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_4bc49dee72f844e0990d544266e771ed": {
-  "drop": true
+  "source": "86c0c7_8135a9e06f394355aaab98bfcd44f5eb~mv2.jpeg"
  },
  "86c0c7_4c0f4f921e8544a2a567949df1a26f17": {
   "grey": {},
@@ -441,7 +441,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_50ccb26ebaf5415f835fb9006b2426b1": {
-  "drop": true
+  "source": "86c0c7_76bc6b7928404c129b92f23597c972b0~mv2.jpeg"
  },
  "86c0c7_50ed5f2a32c749b6818c4d52ff6bc115": {
   "clear": [
@@ -566,7 +566,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_6606970ebe5447a99e4aae199925b2df": {
-  "drop": true
+  "source": "86c0c7_d8e5e7f8bc4c46f39c29f85bb05f2677~mv2.jpeg"
  },
  "86c0c7_6683abbc248446ada1182a4f0cab6935": {
   "grey": {},
@@ -620,7 +620,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_6ff3d6c0ecdb49068cecc6c470c77e6b": {
-  "drop": true
+  "source": "86c0c7_708d96a945874e04b68fa755c483c9bd~mv2.jpeg"
  },
  "86c0c7_705e9eaf98bb40f586c6e9e495426428": {
   "grey": {},
@@ -669,7 +669,7 @@
   "wall": 0
  },
  "86c0c7_77697533ae5b464d9129fae05bbab9fa": {
-  "drop": true
+  "source": "86c0c7_bbcc0305b56249459b914a3c96dd6fa9~mv2.jpeg"
  },
  "86c0c7_778b1dadb07e4a05b937cdd1b6aa15a6": {
   "grey": {},
@@ -716,13 +716,13 @@
   "wall": 0
  },
  "86c0c7_7f0cadf03d1e4634b958887b497bcd4a": {
-  "drop": true
+  "source": "86c0c7_15e9ff9e606d4f908f9645b3ae8e78eb~mv2.jpeg"
  },
  "86c0c7_7f856f812fbf4b609b870636724829a8": {
-  "drop": true
+  "source": "86c0c7_6f2ba7433af54ce3bae008c1ed9dfc6f~mv2.jpeg"
  },
  "86c0c7_7fb6c5bf0b98447ca1acc3af7312eea7": {
-  "drop": true
+  "source": "86c0c7_7ea3dc71a17147e1af4e6c10eead2fe2~mv2.jpeg"
  },
  "86c0c7_816ed614a2c74593bebee1442f87462d": {
   "grey": {},
@@ -737,7 +737,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_89b62616787947afbd8ee74f9f4171ce": {
-  "drop": true
+  "source": "86c0c7_2b446f18af3140bf941144609a45add1~mv2.jpeg"
  },
  "86c0c7_8a367d00c8d74cd7ad69e12f154328e3": {
   "grey": {},
@@ -773,7 +773,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_8f3d44328a1e459db9384e10959978d1": {
-  "drop": true
+  "source": "86c0c7_b0fde7496a3840dabc2610a60ce06241~mv2.jpeg"
  },
  "86c0c7_8f694d54d4144f8ca049f2e7a7feb699": {
   "grey": {
@@ -815,7 +815,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_93be8b8c7210481db6ae7e75df88b4e2": {
-  "drop": true
+  "source": "86c0c7_c8dc76f5d3324b21b2db3b06fe601371~mv2.jpeg"
  },
  "86c0c7_94528be19f974316b946563a4d29b228": {
   "grey": {},
@@ -842,7 +842,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_9be87c945c4744e8822beacd67a25b80": {
-  "drop": true
+  "source": "86c0c7_5bd5a968c1fa4cdd8052912e9dd7466c~mv2.jpeg"
  },
  "86c0c7_9e678a9855e14028aad80385ea28761b": {
   "model": "birefnet-general",
@@ -866,10 +866,10 @@
   "model": "birefnet-general"
  },
  "86c0c7_a0b6539d235d4470b84b7e528973b45a": {
-  "drop": true
+  "source": "86c0c7_0825c582ea644dd5925e9f595664155c~mv2.jpeg"
  },
  "86c0c7_a1c44cb2e2714df9a04368b05743d0c2": {
-  "drop": true
+  "source": "86c0c7_7979688451114ecba5e2c8019f77255a~mv2.jpeg"
  },
  "86c0c7_a41e87c20e574e7e91257bcb1d18588e": {
   "grey": {},
@@ -959,7 +959,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_c00df11afa624b4b98adf949a8946c04": {
-  "drop": true
+  "source": "86c0c7_a689e705be414d389d9d2d30a96c3312~mv2.jpeg"
  },
  "86c0c7_c1142c9e2fba4ef1887a377243785219": {
   "grey": {},
@@ -974,7 +974,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_c31fd1b2d1ca4c8198a87f60fa98f206": {
-  "drop": true
+  "source": "86c0c7_55538c81f92742819d2f56ce431ab537~mv2.jpeg"
  },
  "86c0c7_c41a88d7087d4a20af1a19ad0e314b61": {
   "model": "birefnet-general",
@@ -1019,7 +1019,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_c7d6fa74927348db8097073637f5191c": {
-  "drop": true
+  "source": "86c0c7_7aa0832526074df5af468c32e30a0295~mv2.jpeg"
  },
  "86c0c7_c82cab2217714d8bbed295dc23b1551a": {
   "grey": {},
@@ -1038,7 +1038,7 @@
   "wall": 0
  },
  "86c0c7_ca85858f9fd4426d91824ea7dc7422d3": {
-  "drop": true
+  "source": "86c0c7_bca8ed0f3fa2411cac199f88b1522576~mv2.jpeg"
  },
  "86c0c7_cc7a9a2afc16494d97cc1e662ea76229": {
   "drop": true
@@ -1056,7 +1056,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_d157bb2fc12b4db3bf68a80d65025954": {
-  "drop": true
+  "source": "86c0c7_3133da90b94e4b2586303fa0184b83fd~mv2.jpeg"
  },
  "86c0c7_d41c43887c4141228927efb4f2f687f3": {
   "grey": {},
@@ -1080,14 +1080,14 @@
   "wall": 0
  },
  "86c0c7_d8d15ec5cb9b48ac8534c5ff0cb93e0f": {
-  "drop": true
+  "source": "86c0c7_8e8ddf08995540eea5f93062350d8a23~mv2.jpeg"
  },
  "86c0c7_d946f816a1c74d06b8ac4f8723a8bb73": {
   "grey": {},
   "model": "birefnet-general"
  },
  "86c0c7_d95105557df54ae0b3f4a0aa12c1524f": {
-  "drop": true
+  "source": "86c0c7_ccb2679f5ed74ab3a65289c38fb55a78~mv2.jpeg"
  },
  "86c0c7_d97ec60892884b00b984285e691c0821": {
   "grey": {
@@ -1113,7 +1113,7 @@
   "wall": 0
  },
  "86c0c7_dc009d42a6e64833bdb74ff1878dc15f": {
-  "drop": true
+  "source": "86c0c7_a780563359e7438a9dd3de76e02231f6~mv2.jpeg"
  },
  "86c0c7_dc84d13bc1154524ba9b16e16aa4b4b2": {
   "grey": {},
@@ -1125,7 +1125,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_dfb40f2e276c4295b4180a1b503f2476": {
-  "drop": true
+  "source": "86c0c7_b0856c510b684ec6957b415c393edd0c~mv2.jpeg"
  },
  "86c0c7_dfddb1fe6ec049f6bca9d5b3c4b53bd3": {
   "grey": {},
@@ -1191,7 +1191,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_ed0fca201a444814a58bcfe009f24f95": {
-  "drop": true
+  "source": "86c0c7_acb46766a96c453f9a4d213e834c6bcd~mv2.jpeg"
  },
  "86c0c7_ed3c39716dd74ba0904ef81a25a4398e": {
   "grey": {},
@@ -1258,7 +1258,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_fc430cc771e041f3bd0e60c91dc377dd": {
-  "drop": true
+  "source": "86c0c7_9a7576102cdb43358090aeb7b398c2c3~mv2.jpeg"
  },
  "86c0c7_fd4f7f30907140c49f82a3d49d7fa75f": {
   "grey": {},
