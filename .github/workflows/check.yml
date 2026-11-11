@@ -1,0 +1,28 @@
+name: Check every product has its cutout
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python tools/check_photos.py
+      - run: |
+          git config user.name "cutouts-bot"
+          git config user.email "cutouts-bot@users.noreply.github.com"
+          cp review/photo_check.csv /tmp/
+          git fetch -q origin review:refs/remotes/origin/review || true
+          git checkout -q -B review origin/review
+          mkdir -p review && cp /tmp/photo_check.csv review/
+          git add -f review/photo_check.csv
+          git commit -q -m "Photo check" || true
+          git push -q -f origin review

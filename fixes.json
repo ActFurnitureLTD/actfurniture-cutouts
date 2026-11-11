@@ -1,0 +1,1450 @@
+{
+ "86c0c7_012ae850d8104b6c877868f5f472e554": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_0152b6485dd54a1c939b543ad4f68de9": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_02083fbd340b483d8023a6ac1c581ed7": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_0334541387f44e5eaacb0ddc58222de8": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_03de54e29b3c4a5cbc248514f4f41785": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_044e8ddf06e14ceda32cee55db624e79": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_05d163262d02495db956755e0d1c514c": {
+  "source": "86c0c7_e4cca541ecd34fe986da44fb71f63417~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_06863e2c20734ef39c88e7e63bd9814e": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_075e2fc90bf945a0bf67c27623c1462e": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_07ce0215adad40379ab775987d4e012b": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_08ef839956344472b8308089b4df44c0": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_09cb7d2b71f048d093553d1b6a6a70bf": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_09d859985f144f1eba4993b8e16c77f9": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_0bdd71f469bb4e0a960a00de231ba80c": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_0be59fcb75e3405c8bddd2b1a65957d5": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_0e18e79ffeef4346b996b0caee352fc6": {
+  "clear": [
+   [
+    0.1,
+    0.35,
+    0.95,
+    0.85,
+    24,
+    70
+   ]
+  ],
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  },
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_0ef36fe28b1240fd9aa4f70e745d971e": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_0f223357904e4b0aa2ecf1f90597a8b0": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_0f3fcccfc825450b9ee65b080402816f": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_0fe15984809f4d998598794b8f04c6ac": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_1049f24e773d49869a73e6b262480609": {
+  "source": "86c0c7_fc7d8074d53c48039fc61524155bbd98~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_107c425750ff4921931dd330c8d3bc45": {
+  "grey": {},
+  "model": "birefnet-general",
+  "only": [
+   0.148,
+   0.003,
+   0.5,
+   0.977
+  ]
+ },
+ "86c0c7_10a2378bd7f142928c29a1f4f1035a58": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_127bfd51009d4d4cb6671501711de7a4": {
+  "clear": [
+   [
+    0.05,
+    0.55,
+    0.97,
+    0.9
+   ]
+  ],
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  },
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_138d124ba1654cddb85299d26be23aba": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_13dd95a4f9b44dd98c2271d0ebd965f0": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_143989a31e794e8fa5255a1a7cfeaeca": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_17922c8a0c5847b58d44ffb1aa2ed99a": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_1bb4d4dc940642f6b0d93923ab530553": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_1c3f55fc01a449639e148acd40fa3827": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_1d5ad48b24b544f5a116777a8a520351": {
+  "source": "86c0c7_73c4663aae074ad986015c2fe1b37505~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0
+ },
+ "86c0c7_1e5f6a975cc3426f9d90eab1207a29b3": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_1f7a7218b6b64b96b25ca84ea4b3a6d0": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_2077c1b09d124bd5a701d9455fb7a53e": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_20ae5cf2114f4cf0a6007cf87be9fb41": {
+  "fill": true,
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_21d7d36ed991443fb03889d196747c60": {
+  "source": "86c0c7_4381924efeb64b8cb9400dd4468c633f~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_21e0df0e45184a409fda126a1787517e": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_2213efb3e03646ca9a1628409852d026": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_225099c2799844e499cdf294243fc09c": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_23f794a82e6e4793aa875754c43dc1ec": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_250fdecddfe44845862490228a9353b8": {
+  "source": "86c0c7_1b138dde402047b28f92153d26830c80~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0
+ },
+ "86c0c7_26b91d2b8828411582fc620c938fc695": {
+  "source": "86c0c7_545a9135d7cd4f4484eda83cc50397cb~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0
+ },
+ "86c0c7_273f038d163043018532b10e7022d386": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_2814bd1b54934c969d6648e2d52d5a4a": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_289ad631c1414d2792752f972f87772f": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_2950ab8715c54f55a1a555fce2dadd7d": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_2973ef9e0c13416789d6db47784dfe5a": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_29a1a57d08c34fa4aa47cd0eff0d9bec": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_2a2dde801d1545c0b6d4ada913f73f86": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_2a3480471f8246cbaf549ec764be76f6": {
+  "drop": true
+ },
+ "86c0c7_2a7830d44b5e4a90977eb6ca12c54f92": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_2a7a706fbfa24ebbb8bc47d8822ea4a6": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_2d84bbcb06fd4285b0af9e62c82ad5ef": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_2db521e6e1a64836a023054f58d2e9b0": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_2ef2d3121a8e49438953e19306f43de9": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_2f3490ccf82448eeaedb00ae5821401a": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_344af560d4de4c5b9c5bdfc13a51595c": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_34b29ce64de141b592b28ef832918486": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_356c229289b347cc96d8ae8a49d6106a": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_3587d092e07b4596819c0ac5c365c54b": {
+  "erase": [
+   [
+    0.33,
+    0.62,
+    0.62,
+    0.8
+   ]
+  ],
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  },
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_3655004fbc934115a57a278d53998b2e": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_368b07f1265545f5aef52210ff819244": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_3738aa1fed834d459be752a4b0a0f8f9": {
+  "clear": [
+   [
+    0.25,
+    0.45,
+    0.75,
+    0.75
+   ]
+  ],
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  },
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_37e835fdb6eb421ba043d20e03de0169": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_38131a6a34414bec938d75c67834dd67": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_3a477b3bf6264ca3b69c1a0fd0dd4c02": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_3c474d9edfab4c7b8b2bc5dd0f44feb9": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_3dbd73a7c09e411087316f4045e334b2": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_3e5f79e90583457da924e92c8b551365": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_3e9f5b3240bd4f25aced7a86dc02dab4": {
+  "clear": [
+   [
+    0.15,
+    0.75,
+    0.85,
+    0.97
+   ]
+  ],
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  },
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_3fc47b76368b4c609a72721bf400c551": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_40887f4bd03e430880ee0903fa351f8d": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_4092ff1c451043cf9f28d45a1c7958b9": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_4179c37323b940698e7ccb18472e8da5": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_41b49a46cffa40328a44e6657da5be8d": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_426bca30a04446cea4dd832695f54214": {
+  "source": "86c0c7_d0b71b01b1ae4fbab73ff7757a8a0141~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0
+ },
+ "86c0c7_439d854b2482437eab5bc04bdf8a7d04": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_4486b4e1ff804bdfb480c7c08f06f2be": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_46b7588054114a279a6ce22cf7820fac": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_487c75fbe7cc482096fc86a5d07b5890": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_4acd0c91fdca46f6863ac39ccc3fa530": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_4bc49dee72f844e0990d544266e771ed": {
+  "source": "86c0c7_8135a9e06f394355aaab98bfcd44f5eb~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_4c0f4f921e8544a2a567949df1a26f17": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_50752aac095f4eb09ff92e67e97b46b6": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_50ccb26ebaf5415f835fb9006b2426b1": {
+  "source": "86c0c7_76bc6b7928404c129b92f23597c972b0~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_50ed5f2a32c749b6818c4d52ff6bc115": {
+  "clear": [
+   [
+    0.15,
+    0.08,
+    0.85,
+    0.55
+   ]
+  ],
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_519573f63f544a03b6106a284deb40dc": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_521cf870937446acaea4a170c240898a": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_5240edf06cb74a6eac00b70d15e8e28c": {
+  "clear": [
+   [
+    0.15,
+    0.55,
+    0.85,
+    0.9
+   ]
+  ],
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  },
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_540a202caa6b422bab1a69ac24755c04": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_548bbb26271c428b904c2d622cf729b8": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_54b59cc374f94657ba52acdaf91c758b": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_54cf77533c514075952e6c79a83de6ad": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_55e1444364954291861a1a20d11b20f9": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_56e0b36f335d44ccb466690a2023c9f1": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_56e544f28724410098403e07dcf64a32": {
+  "fill": true,
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_59d6b6f908e34cb6a96784e6e52f9517": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_5ba8bdae590f49ccbdd7e60d0793f71b": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_5cd6db6d812243bbbead75ca785af8c0": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_5db018b525a642a8873db1246ee500cd": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_5efd1c335e38457688823369842af646": {
+  "clear": [
+   [
+    0.1,
+    0.72,
+    0.9,
+    0.98
+   ]
+  ],
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  },
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_606f069050a54de1bb204f260c18a734": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_63645e40db524786b3af0f256cc2aa30": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_6606970ebe5447a99e4aae199925b2df": {
+  "source": "86c0c7_d8e5e7f8bc4c46f39c29f85bb05f2677~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_6683abbc248446ada1182a4f0cab6935": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_6689cbefcc894888998926e5471ea0ec": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_672b47829e334487bfdce452d73d2ebb": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_67b91a8b4f4b43a79d06eec1be807088": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_67c3ad57f0804e8d91183d88691c753e": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_67da56b243214f28b188684cb76010ef": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_685698efddf54a09b5b76903ce86f80b": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_6957ab584c7042fc81ad460f244dd429": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_6c05c6b5467949d6beee87717d79929e": {
+  "drop": true
+ },
+ "86c0c7_6c6c1d11c28f4faf8f4d633d2373ade8": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_6d8981644abe416ba444c861f5714c1c": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_6ff3d6c0ecdb49068cecc6c470c77e6b": {
+  "source": "86c0c7_708d96a945874e04b68fa755c483c9bd~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0
+ },
+ "86c0c7_705e9eaf98bb40f586c6e9e495426428": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_7164411af2ec408482114d74077e050f": {
+  "clear": [
+   [
+    0.15,
+    0.35,
+    0.85,
+    0.85,
+    24,
+    70
+   ]
+  ],
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  },
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_72630bff2cff48c28e59d6941fccb136": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_734d82a69881405db6b53a772e6d8ebb": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_752df41f329447ec9470aa5d70c77d01": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  },
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_757dad77204c4c01af95f1971013cd1b": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_77697533ae5b464d9129fae05bbab9fa": {
+  "source": "86c0c7_bbcc0305b56249459b914a3c96dd6fa9~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0
+ },
+ "86c0c7_778b1dadb07e4a05b937cdd1b6aa15a6": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_7b8ddc7a43704c808ef7efcdc542a914": {
+  "grey": {},
+  "model": "birefnet-general",
+  "only": [
+   0,
+   0.2,
+   0.282,
+   0.717
+  ]
+ },
+ "86c0c7_7bbf04fe70374d3fafe8d7ef7f6c972b": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_7c7d2a95b2b64874ba92997489b1b09c": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_7cf93cca286446e4ace7d10c0a599b6d": {
+  "clear": [
+   [
+    0.15,
+    0.45,
+    0.9,
+    0.95
+   ]
+  ],
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  },
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_7e780ac9e11747af9cb79ab5f9e2233a": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_7f0cadf03d1e4634b958887b497bcd4a": {
+  "source": "86c0c7_15e9ff9e606d4f908f9645b3ae8e78eb~mv2.jpeg"
+ },
+ "86c0c7_7f856f812fbf4b609b870636724829a8": {
+  "source": "86c0c7_6f2ba7433af54ce3bae008c1ed9dfc6f~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_7fb6c5bf0b98447ca1acc3af7312eea7": {
+  "source": "86c0c7_7ea3dc71a17147e1af4e6c10eead2fe2~mv2.jpeg"
+ },
+ "86c0c7_816ed614a2c74593bebee1442f87462d": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_81ee07f8ce3f4ac0a9f9644b3b05cf9b": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_829ce81ddf304bedbd484bc2d52416e5": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_89b62616787947afbd8ee74f9f4171ce": {
+  "source": "86c0c7_2b446f18af3140bf941144609a45add1~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0
+ },
+ "86c0c7_8a367d00c8d74cd7ad69e12f154328e3": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_8b004100333f4f71b25881d3ab8f69e2": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_8b181710f4a9413caba7025bd8faee1a": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_8bc86795f38c4d73804edd84ff5a78e6": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_8c4290fa792642dbb8c62df417e6b761": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_8c485a0bc78a4cadaa7dbbb3e7bf6c64": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_8dd8dbc9e19e47cab78961a127fa584e": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_8f3d44328a1e459db9384e10959978d1": {
+  "source": "86c0c7_b0fde7496a3840dabc2610a60ce06241~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_8f694d54d4144f8ca049f2e7a7feb699": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_8f8176861a964085a5e36b0bdbed5dbd": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_916c117c26cc4724aab8137672e17ba3": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_91c5f355bfd0429fb5e93584541a66fb": {
+  "clear": [
+   [
+    0.15,
+    0.62,
+    0.85,
+    0.92
+   ]
+  ],
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  },
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_930c1edcb97543c49111796ec86954fc": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_93be8b8c7210481db6ae7e75df88b4e2": {
+  "source": "86c0c7_c8dc76f5d3324b21b2db3b06fe601371~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0
+ },
+ "86c0c7_94528be19f974316b946563a4d29b228": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_96215e9b240d4a85b0a8cf2dae982667": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_967778ae326d4345bc485aa127bbb97e": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_968d2ad6f6f84dafac3fba5ad88f2c88": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_997db15ff31849098bf0343be3746e35": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_9be87c945c4744e8822beacd67a25b80": {
+  "source": "86c0c7_5bd5a968c1fa4cdd8052912e9dd7466c~mv2.jpeg"
+ },
+ "86c0c7_9e678a9855e14028aad80385ea28761b": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_9e7051be1fef4cc2bb17e9dd77e35cf5": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_9e7941c67ea342ed8c7a6dd1ca1d24ca": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_9ed3ecb5ac044f60b94deeb9aaae0e4a": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_a02c1372227247d694487ca8e30de420": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_a0b6539d235d4470b84b7e528973b45a": {
+  "source": "86c0c7_0825c582ea644dd5925e9f595664155c~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_a1c44cb2e2714df9a04368b05743d0c2": {
+  "source": "86c0c7_7979688451114ecba5e2c8019f77255a~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0
+ },
+ "86c0c7_a41e87c20e574e7e91257bcb1d18588e": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_a4809fade59c4fc09253139dc7c8b064": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_a4f1b6d1d0004a99b648c9375b3226f3": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_a573d1e6d1024ec7a970c509fa440414": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_a60996746a6c4c2cb3dae865951a8f77": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_a744708017234e5c8dc972201785796b": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_a796b60d13984ecfa23bcb986245c6df": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_a7c34c6aff97468aa332bb43adac2ac5": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_a9b64b7de4aa4b688eb129d8b60946f8": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_a9e52002fe52490b816dc8bc49ca94b5": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_aa25dbb4f74542f28ba5f818fda2bb0d": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_aa986946abbd4a1b8fbdd14d31a7fdb3": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_ab430ecd173545e780b02f70b886ceaf": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_b1ec97d09f9c4c229eceb85c64200113": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_b2923590d9394ee5b7fe1dff6a22d200": {
+  "fill": true,
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_b2c672e293384a0abe88d3bf4ece3ba1": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_b36cf09cd58b43c1a124fcbfb9378978": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_b67551b7a501453b83ee02d80ae09696": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_b8fa40d3863944ab86c236405ff3b0a0": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_baa22b47b08b4a70a4803de32dfab195": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_bd0d6c2fcb8f4e419841cb8ee0a22473": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_c00df11afa624b4b98adf949a8946c04": {
+  "source": "86c0c7_a689e705be414d389d9d2d30a96c3312~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_c1142c9e2fba4ef1887a377243785219": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_c2fdb01816c34ac0bd8a12b9394bd20f": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_c31fd1b2d1ca4c8198a87f60fa98f206": {
+  "source": "86c0c7_55538c81f92742819d2f56ce431ab537~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_c41a88d7087d4a20af1a19ad0e314b61": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_c4497145b54f48d9840029c1b88a73d7": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_c461f6f0894742739e9065a587eb8217": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_c4a25e9e9d934b459e6724a90f443413": {
+  "clear": [
+   [
+    0.2,
+    0.25,
+    0.8,
+    0.7
+   ]
+  ],
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_c592148cb3d74c34a89cee800fbde996": {
+  "erase": [
+   [
+    0.36,
+    0.55,
+    0.58,
+    0.68
+   ]
+  ],
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  },
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_c7d6fa74927348db8097073637f5191c": {
+  "source": "86c0c7_7aa0832526074df5af468c32e30a0295~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_c82cab2217714d8bbed295dc23b1551a": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_c86f3261a27f46bd904d3668d2b4b1a2": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_c95e6037c8274148af8a1b895fcf67bc": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_ca85858f9fd4426d91824ea7dc7422d3": {
+  "source": "86c0c7_bca8ed0f3fa2411cac199f88b1522576~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0
+ },
+ "86c0c7_cc7a9a2afc16494d97cc1e662ea76229": {
+  "drop": true
+ },
+ "86c0c7_cc8b69fe07bb43d3b0f9c473e0787532": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_ce2e40f41d1948e1bbaa113866abc9a8": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_cf8a8a465e7345a4a1910a7d3e693e24": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_d157bb2fc12b4db3bf68a80d65025954": {
+  "source": "86c0c7_3133da90b94e4b2586303fa0184b83fd~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_d41c43887c4141228927efb4f2f687f3": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_d48da84d05a04b7a9440871471c82abe": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_d4b9a6c004c447c0a04f98a4c93e8e6b": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_d7cec5765183404b8956e598ad5e0f2c": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_d842ca56d3cf419692e2864feab254a4": {
+  "min_part": 1.0,
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_d8d15ec5cb9b48ac8534c5ff0cb93e0f": {
+  "source": "86c0c7_8e8ddf08995540eea5f93062350d8a23~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_d946f816a1c74d06b8ac4f8723a8bb73": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_d95105557df54ae0b3f4a0aa12c1524f": {
+  "source": "86c0c7_ccb2679f5ed74ab3a65289c38fb55a78~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_d97ec60892884b00b984285e691c0821": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_d99b9886fda34bf5aea26ef9f5f225fa": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_da746ac91c1746d68aa8f2ca18bd1902": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_dae71acf256c4716a575bc062d393bf4": {
+  "drop": true
+ },
+ "86c0c7_db2150da158a4f10baa9c7dff3ec5d8f": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_dc009d42a6e64833bdb74ff1878dc15f": {
+  "source": "86c0c7_a780563359e7438a9dd3de76e02231f6~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_dc84d13bc1154524ba9b16e16aa4b4b2": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_dd1b5c0c676a4838842210bd0f808410": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_dfb40f2e276c4295b4180a1b503f2476": {
+  "source": "86c0c7_b0856c510b684ec6957b415c393edd0c~mv2.jpeg"
+ },
+ "86c0c7_dfddb1fe6ec049f6bca9d5b3c4b53bd3": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_e0b7227ae10b4e05b342a3ecc6668a20": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_e317ce759ac447ee8a0f93074aec6e61": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_e43e9237bccd4c6f9cb4f7779200e9db": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_e44dc60af2c24152aa3b6d9553adc7b8": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_e66c1b9d9a354db1ad5e1d1f35c49d67": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_e689b692185f4cd2bf8c3ff5092b860d": {
+  "grey": {},
+  "model": "birefnet-general",
+  "only": [
+   0,
+   0.251,
+   0.23,
+   0.728
+  ]
+ },
+ "86c0c7_e82ae823a77f4439919a16643863a7c9": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_e8303a9c795d47899713bd3e40b9c47d": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_eb1330dd187d4dfc8f859fa07150e597": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_ec0bc13b11e849cbaeecd1b139765479": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_ec584a5224074c1ca6e2f7abb5c71efa": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_ececc3d1447b4e8da96e738b98df9afb": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_ed0fca201a444814a58bcfe009f24f95": {
+  "source": "86c0c7_acb46766a96c453f9a4d213e834c6bcd~mv2.jpeg"
+ },
+ "86c0c7_ed3c39716dd74ba0904ef81a25a4398e": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_ee15b71a8dd04d02818f59ab1a0421f9": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_eefcfc51057c4153a34cb6bec1692795": {
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005
+  },
+  "model": "birefnet-general"
+ },
+ "86c0c7_f1f7bdac097e4e3a9150e33b78c7a5b4": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_f5133baf2b0f4438863db8169ca6a251": {
+  "erase": [
+   [
+    0.28,
+    0.42,
+    0.72,
+    0.53
+   ]
+  ],
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  },
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_f656011310974ffb815b4534d810b959": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_f69b20bbbb884c02adadca25c0ebcf6c": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_f7ff75c1903f4abbbabf6cff8eccd6a5": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_f82ee8d30e484b44aae37ba083a8fdc2": {
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_f8c1cfd99a614e99a3c1617d29151991": {
+  "fill": true,
+  "model": "birefnet-general",
+  "wall": 0
+ },
+ "86c0c7_f9a5d7fe191c445bb81223b687222e91": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_fc430cc771e041f3bd0e60c91dc377dd": {
+  "source": "86c0c7_9a7576102cdb43358090aeb7b398c2c3~mv2.jpeg",
+  "model": "birefnet-general",
+  "min_part": 1.0,
+  "grey": {
+   "chroma": 13,
+   "light": 105,
+   "min": 0.0005,
+   "skip_top": 0.05
+  }
+ },
+ "86c0c7_fd4f7f30907140c49f82a3d49d7fa75f": {
+  "grey": {},
+  "min_part": 1.0,
+  "model": "birefnet-general"
+ },
+ "86c0c7_ffa39fabce0341e3a0424ebf819932a7": {
+  "grey": {},
+  "model": "birefnet-general"
+ },
+ "86c0c7_d3d55db05c944ca29aa12b22a80eea14": {
+  "clear": [
+   [
+    0.12,
+    0.25,
+    0.88,
+    0.85
+   ]
+  ]
+ },
+ "86c0c7_39c2108e40f04b5b99b15f72c23ca6ca": {
+  "clear": [
+   [
+    0.22,
+    0.55,
+    0.78,
+    0.7,
+    18,
+    120
+   ]
+  ]
+ }
+}

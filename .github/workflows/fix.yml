@@ -1,0 +1,43 @@
+name: Fix cutouts by hand
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: cutouts
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    env:
+      U2NET_HOME: ${{ github.workspace }}/.models
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/cache@v4
+        with:
+          path: .models
+          key: rembg-models-v2
+      - run: pip install -q "rembg[cpu]" opencv-python-headless pillow numpy
+      - run: python tools/fix.py
+      - run: |
+          git config user.name "cutouts-bot"
+          git config user.email "cutouts-bot@users.noreply.github.com"
+          mkdir -p /tmp/sheets && cp review/fix_*.jpg /tmp/sheets/ 2>/dev/null || true
+          git add cut
+          git commit -q -m "Hand-fix cutouts" || true
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
+          git fetch -q origin review:refs/remotes/origin/review || true
+          git checkout -q -B review origin/review 2>/dev/null || git checkout -q --orphan review
+          rm -f review/fix_*.jpg && mkdir -p review && cp /tmp/sheets/*.jpg review/ 2>/dev/null || true
+          git add -f review
+          git commit -q -m "Fix review sheets" || true
+          git push -q -f origin review

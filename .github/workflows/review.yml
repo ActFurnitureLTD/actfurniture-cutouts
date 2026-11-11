@@ -1,0 +1,31 @@
+name: Build cutout review sheets
+
+on:
+  workflow_dispatch:
+    inputs:
+      only_fixes:
+        description: Only the hand-fixed pieces
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q opencv-python-headless pillow numpy
+      - run: python tools/review.py
+        env:
+          ONLY_FIXES: ${{ inputs.only_fixes }}
+      - run: |
+          git config user.name "cutouts-bot"
+          git config user.email "cutouts-bot@users.noreply.github.com"
+          git checkout -B review
+          git add -f review
+          git commit -q -m "Review sheets"
+          git push -q -f origin review
