@@ -26,14 +26,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_05d163262d02495db956755e0d1c514c": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.137,
-   0.354,
-   0.821
-  ]
+  "drop": true
  },
  "86c0c7_06863e2c20734ef39c88e7e63bd9814e": {
   "grey": {},
@@ -80,8 +73,10 @@
   "grey": {
    "chroma": 13,
    "light": 105,
-   "min": 0.0005
+   "min": 0.0005,
+   "skip_top": 0.05
   },
+  "min_part": 1.0,
   "model": "birefnet-general"
  },
  "86c0c7_0ef36fe28b1240fd9aa4f70e745d971e": {
@@ -105,14 +100,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_1049f24e773d49869a73e6b262480609": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.096,
-   0.375,
-   0.883
-  ]
+  "drop": true
  },
  "86c0c7_107c425750ff4921931dd330c8d3bc45": {
   "grey": {},
@@ -132,8 +120,10 @@
   "grey": {
    "chroma": 13,
    "light": 105,
-   "min": 0.0005
+   "min": 0.0005,
+   "skip_top": 0.05
   },
+  "min_part": 1.0,
   "model": "birefnet-general"
  },
  "86c0c7_138d124ba1654cddb85299d26be23aba": {
@@ -161,14 +151,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_1d5ad48b24b544f5a116777a8a520351": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.189,
-   0.271,
-   0.707
-  ]
+  "drop": true
  },
  "86c0c7_1e5f6a975cc3426f9d90eab1207a29b3": {
   "model": "birefnet-general",
@@ -188,14 +171,7 @@
   "wall": 0
  },
  "86c0c7_21d7d36ed991443fb03889d196747c60": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.22,
-   0.209,
-   0.686
-  ]
+  "drop": true
  },
  "86c0c7_21e0df0e45184a409fda126a1787517e": {
   "grey": {},
@@ -218,24 +194,10 @@
   "model": "birefnet-general"
  },
  "86c0c7_250fdecddfe44845862490228a9353b8": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.262,
-   0.22,
-   0.707
-  ]
+  "drop": true
  },
  "86c0c7_26b91d2b8828411582fc620c938fc695": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.189,
-   0.271,
-   0.821
-  ]
+  "drop": true
  },
  "86c0c7_273f038d163043018532b10e7022d386": {
   "grey": {},
@@ -313,8 +275,10 @@
   "grey": {
    "chroma": 13,
    "light": 105,
-   "min": 0.0005
+   "min": 0.0005,
+   "skip_top": 0.05
   },
+  "min_part": 1.0,
   "model": "birefnet-general"
  },
  "86c0c7_3655004fbc934115a57a278d53998b2e": {
@@ -329,8 +293,10 @@
   "grey": {
    "chroma": 13,
    "light": 105,
-   "min": 0.0005
+   "min": 0.0005,
+   "skip_top": 0.05
   },
+  "min_part": 1.0,
   "model": "birefnet-general"
  },
  "86c0c7_37e835fdb6eb421ba043d20e03de0169": {
@@ -342,12 +308,8 @@
   "model": "birefnet-general"
  },
  "86c0c7_3a477b3bf6264ca3b69c1a0fd0dd4c02": {
-  "grey": {
-   "chroma": 13,
-   "light": 105,
-   "min": 0.0005
-  },
-  "model": "birefnet-general"
+  "model": "birefnet-general",
+  "wall": 0
  },
  "86c0c7_3c474d9edfab4c7b8b2bc5dd0f44feb9": {
   "grey": {
@@ -371,8 +333,10 @@
   "grey": {
    "chroma": 13,
    "light": 105,
-   "min": 0.0005
+   "min": 0.0005,
+   "skip_top": 0.05
   },
+  "min_part": 1.0,
   "model": "birefnet-general"
  },
  "86c0c7_3fc47b76368b4c609a72721bf400c551": {
@@ -396,14 +360,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_426bca30a04446cea4dd832695f54214": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.262,
-   0.23,
-   0.686
-  ]
+  "drop": true
  },
  "86c0c7_439d854b2482437eab5bc04bdf8a7d04": {
   "grey": {},
@@ -430,14 +387,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_4bc49dee72f844e0990d544266e771ed": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0.614,
-   0.148,
-   1,
-   0.935
-  ]
+  "drop": true
  },
  "86c0c7_4c0f4f921e8544a2a567949df1a26f17": {
   "grey": {},
@@ -449,22 +399,11 @@
   "model": "birefnet-general"
  },
  "86c0c7_50ccb26ebaf5415f835fb9006b2426b1": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.169,
-   0.251,
-   0.728
-  ]
+  "drop": true
  },
  "86c0c7_50ed5f2a32c749b6818c4d52ff6bc115": {
-  "grey": {
-   "chroma": 13,
-   "light": 105,
-   "min": 0.0005
-  },
-  "model": "birefnet-general"
+  "model": "birefnet-general",
+  "wall": 0
  },
  "86c0c7_519573f63f544a03b6106a284deb40dc": {
   "grey": {},
@@ -478,8 +417,10 @@
   "grey": {
    "chroma": 13,
    "light": 105,
-   "min": 0.0005
+   "min": 0.0005,
+   "skip_top": 0.05
   },
+  "min_part": 1.0,
   "model": "birefnet-general"
  },
  "86c0c7_540a202caa6b422bab1a69ac24755c04": {
@@ -544,8 +485,10 @@
   "grey": {
    "chroma": 13,
    "light": 105,
-   "min": 0.0005
+   "min": 0.0005,
+   "skip_top": 0.05
   },
+  "min_part": 1.0,
   "model": "birefnet-general"
  },
  "86c0c7_606f069050a54de1bb204f260c18a734": {
@@ -557,14 +500,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_6606970ebe5447a99e4aae199925b2df": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.158,
-   0.365,
-   0.8
-  ]
+  "drop": true
  },
  "86c0c7_6683abbc248446ada1182a4f0cab6935": {
   "grey": {},
@@ -618,14 +554,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_6ff3d6c0ecdb49068cecc6c470c77e6b": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.169,
-   0.313,
-   0.821
-  ]
+  "drop": true
  },
  "86c0c7_705e9eaf98bb40f586c6e9e495426428": {
   "grey": {},
@@ -635,8 +564,10 @@
   "grey": {
    "chroma": 13,
    "light": 105,
-   "min": 0.0005
+   "min": 0.0005,
+   "skip_top": 0.05
   },
+  "min_part": 1.0,
   "model": "birefnet-general"
  },
  "86c0c7_72630bff2cff48c28e59d6941fccb136": {
@@ -651,8 +582,10 @@
   "grey": {
    "chroma": 13,
    "light": 105,
-   "min": 0.0005
+   "min": 0.0005,
+   "skip_top": 0.05
   },
+  "min_part": 1.0,
   "model": "birefnet-general"
  },
  "86c0c7_757dad77204c4c01af95f1971013cd1b": {
@@ -660,14 +593,7 @@
   "wall": 0
  },
  "86c0c7_77697533ae5b464d9129fae05bbab9fa": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.189,
-   0.261,
-   0.728
-  ]
+  "drop": true
  },
  "86c0c7_778b1dadb07e4a05b937cdd1b6aa15a6": {
   "grey": {},
@@ -695,47 +621,24 @@
   "grey": {
    "chroma": 13,
    "light": 105,
-   "min": 0.0005
+   "min": 0.0005,
+   "skip_top": 0.05
   },
+  "min_part": 1.0,
   "model": "birefnet-general"
  },
  "86c0c7_7e780ac9e11747af9cb79ab5f9e2233a": {
-  "grey": {
-   "chroma": 13,
-   "light": 105,
-   "min": 0.0005
-  },
-  "model": "birefnet-general"
+  "model": "birefnet-general",
+  "wall": 0
  },
  "86c0c7_7f0cadf03d1e4634b958887b497bcd4a": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0.21,
-   0.22,
-   0.531,
-   0.821
-  ]
+  "drop": true
  },
  "86c0c7_7f856f812fbf4b609b870636724829a8": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.272,
-   0.209,
-   0.707
-  ]
+  "drop": true
  },
  "86c0c7_7fb6c5bf0b98447ca1acc3af7312eea7": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0.003,
-   0.106,
-   0.479,
-   0.894
-  ]
+  "drop": true
  },
  "86c0c7_816ed614a2c74593bebee1442f87462d": {
   "grey": {},
@@ -750,14 +653,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_89b62616787947afbd8ee74f9f4171ce": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.241,
-   0.22,
-   0.686
-  ]
+  "drop": true
  },
  "86c0c7_8a367d00c8d74cd7ad69e12f154328e3": {
   "grey": {},
@@ -793,14 +689,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_8f3d44328a1e459db9384e10959978d1": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.21,
-   0.251,
-   0.707
-  ]
+  "drop": true
  },
  "86c0c7_8f694d54d4144f8ca049f2e7a7feb699": {
   "grey": {
@@ -823,8 +712,10 @@
   "grey": {
    "chroma": 13,
    "light": 105,
-   "min": 0.0005
+   "min": 0.0005,
+   "skip_top": 0.05
   },
+  "min_part": 1.0,
   "model": "birefnet-general"
  },
  "86c0c7_930c1edcb97543c49111796ec86954fc": {
@@ -832,14 +723,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_93be8b8c7210481db6ae7e75df88b4e2": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.075,
-   0.489,
-   0.904
-  ]
+  "drop": true
  },
  "86c0c7_94528be19f974316b946563a4d29b228": {
   "grey": {},
@@ -866,22 +750,11 @@
   "model": "birefnet-general"
  },
  "86c0c7_9be87c945c4744e8822beacd67a25b80": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.262,
-   0.251,
-   0.676
-  ]
+  "drop": true
  },
  "86c0c7_9e678a9855e14028aad80385ea28761b": {
-  "grey": {
-   "chroma": 13,
-   "light": 105,
-   "min": 0.0005
-  },
-  "model": "birefnet-general"
+  "model": "birefnet-general",
+  "wall": 0
  },
  "86c0c7_9e7051be1fef4cc2bb17e9dd77e35cf5": {
   "grey": {},
@@ -901,24 +774,10 @@
   "model": "birefnet-general"
  },
  "86c0c7_a0b6539d235d4470b84b7e528973b45a": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.054,
-   0.531,
-   0.946
-  ]
+  "drop": true
  },
  "86c0c7_a1c44cb2e2714df9a04368b05743d0c2": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0.283,
-   0.283,
-   0.51,
-   0.717
-  ]
+  "drop": true
  },
  "86c0c7_a41e87c20e574e7e91257bcb1d18588e": {
   "grey": {},
@@ -1008,14 +867,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_c00df11afa624b4b98adf949a8946c04": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.189,
-   0.365,
-   0.821
-  ]
+  "drop": true
  },
  "86c0c7_c1142c9e2fba4ef1887a377243785219": {
   "grey": {},
@@ -1030,56 +882,36 @@
   "model": "birefnet-general"
  },
  "86c0c7_c31fd1b2d1ca4c8198a87f60fa98f206": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.096,
-   0.271,
-   0.749
-  ]
+  "drop": true
  },
  "86c0c7_c41a88d7087d4a20af1a19ad0e314b61": {
   "model": "birefnet-general",
   "wall": 0
  },
  "86c0c7_c4497145b54f48d9840029c1b88a73d7": {
-  "grey": {
-   "chroma": 13,
-   "light": 105,
-   "min": 0.0005
-  },
-  "model": "birefnet-general"
+  "model": "birefnet-general",
+  "wall": 0
  },
  "86c0c7_c461f6f0894742739e9065a587eb8217": {
   "grey": {},
   "model": "birefnet-general"
  },
  "86c0c7_c4a25e9e9d934b459e6724a90f443413": {
-  "grey": {
-   "chroma": 13,
-   "light": 105,
-   "min": 0.0005
-  },
-  "model": "birefnet-general"
+  "model": "birefnet-general",
+  "wall": 0
  },
  "86c0c7_c592148cb3d74c34a89cee800fbde996": {
   "grey": {
    "chroma": 13,
    "light": 105,
-   "min": 0.0005
+   "min": 0.0005,
+   "skip_top": 0.05
   },
+  "min_part": 1.0,
   "model": "birefnet-general"
  },
  "86c0c7_c7d6fa74927348db8097073637f5191c": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.148,
-   0.271,
-   0.8
-  ]
+  "drop": true
  },
  "86c0c7_c82cab2217714d8bbed295dc23b1551a": {
   "grey": {},
@@ -1094,22 +926,11 @@
   "model": "birefnet-general"
  },
  "86c0c7_c95e6037c8274148af8a1b895fcf67bc": {
-  "grey": {
-   "chroma": 13,
-   "light": 105,
-   "min": 0.0005
-  },
-  "model": "birefnet-general"
+  "model": "birefnet-general",
+  "wall": 0
  },
  "86c0c7_ca85858f9fd4426d91824ea7dc7422d3": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.096,
-   0.489,
-   0.8
-  ]
+  "drop": true
  },
  "86c0c7_cc7a9a2afc16494d97cc1e662ea76229": {
   "drop": true
@@ -1127,14 +948,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_d157bb2fc12b4db3bf68a80d65025954": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.169,
-   0.251,
-   0.863
-  ]
+  "drop": true
  },
  "86c0c7_d41c43887c4141228927efb4f2f687f3": {
   "grey": {},
@@ -1158,28 +972,14 @@
   "wall": 0
  },
  "86c0c7_d8d15ec5cb9b48ac8534c5ff0cb93e0f": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.137,
-   0.251,
-   0.728
-  ]
+  "drop": true
  },
  "86c0c7_d946f816a1c74d06b8ac4f8723a8bb73": {
   "grey": {},
   "model": "birefnet-general"
  },
  "86c0c7_d95105557df54ae0b3f4a0aa12c1524f": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0.169,
-   0.189,
-   0.489,
-   0.821
-  ]
+  "drop": true
  },
  "86c0c7_d97ec60892884b00b984285e691c0821": {
   "grey": {
@@ -1205,14 +1005,7 @@
   "wall": 0
  },
  "86c0c7_dc009d42a6e64833bdb74ff1878dc15f": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.158,
-   0.365,
-   0.821
-  ]
+  "drop": true
  },
  "86c0c7_dc84d13bc1154524ba9b16e16aa4b4b2": {
   "grey": {},
@@ -1224,14 +1017,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_dfb40f2e276c4295b4180a1b503f2476": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.075,
-   0.51,
-   0.873
-  ]
+  "drop": true
  },
  "86c0c7_dfddb1fe6ec049f6bca9d5b3c4b53bd3": {
   "grey": {},
@@ -1297,14 +1083,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_ed0fca201a444814a58bcfe009f24f95": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.189,
-   0.24,
-   0.842
-  ]
+  "drop": true
  },
  "86c0c7_ed3c39716dd74ba0904ef81a25a4398e": {
   "grey": {},
@@ -1331,8 +1110,10 @@
   "grey": {
    "chroma": 13,
    "light": 105,
-   "min": 0.0005
+   "min": 0.0005,
+   "skip_top": 0.05
   },
+  "min_part": 1.0,
   "model": "birefnet-general"
  },
  "86c0c7_f656011310974ffb815b4534d810b959": {
@@ -1361,14 +1142,7 @@
   "model": "birefnet-general"
  },
  "86c0c7_fc430cc771e041f3bd0e60c91dc377dd": {
-  "grey": {},
-  "model": "birefnet-general",
-  "only": [
-   0,
-   0.169,
-   0.365,
-   0.79
-  ]
+  "drop": true
  },
  "86c0c7_fd4f7f30907140c49f82a3d49d7fa75f": {
   "grey": {},
