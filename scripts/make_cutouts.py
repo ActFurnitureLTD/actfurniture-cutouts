@@ -60,7 +60,8 @@ def clean_mask(image, alpha, opts=None):
     opts (used by tools/fix.py for hand fixes): wall (colour distance for wall
     patches, 0 turns the rule off), min_part (smallest separate part kept, as a
     share of the biggest), fill (fill every enclosed hole), erase / keep (lists of
-    [x0, y0, x1, y1] boxes as fractions of the photo).
+    [x0, y0, x1, y1] boxes as fractions of the photo), only (one such box: keep
+    just the biggest part inside it, for photos of a set or a pair).
     """
     opts = opts or {}
     mask = (alpha > 0.5).astype(np.uint8)
@@ -123,6 +124,14 @@ def clean_mask(image, alpha, opts=None):
     for x0, y0, x1, y1 in opts.get("keep", []):
         box = (slice(int(y0 * h), int(y1 * h)), slice(int(x0 * w), int(x1 * w)))
         keep[box] = np.maximum(keep[box], (near_background[box] > 12).astype(np.uint8))
+    if opts.get("only"):
+        x0, y0, x1, y1 = opts["only"]
+        inside = np.zeros_like(keep)
+        inside[int(y0 * h):int(y1 * h), int(x0 * w):int(x1 * w)] = 1
+        keep = keep * inside
+        count, labels, stats, _ = cv2.connectedComponentsWithStats(keep, 8)
+        if count > 1:
+            keep = (labels == 1 + np.argmax(stats[1:, cv2.CC_STAT_AREA])).astype(np.uint8)
     for x0, y0, x1, y1 in opts.get("erase", []):
         keep[int(y0 * h):int(y1 * h), int(x0 * w):int(x1 * w)] = 0
     return keep
