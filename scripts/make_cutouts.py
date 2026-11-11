@@ -5,6 +5,7 @@ removes the background and saves cut/<photo id>.webp. Set limit.txt to a number
 to process only that many new photos; 0 means no limit.
 """
 import io
+import json
 import pathlib
 import re
 import subprocess
@@ -53,8 +54,15 @@ def distance(lab, colour):
     return np.sqrt(((lab - colour) ** 2).sum(axis=2))
 
 
-def clean_mask(image, alpha):
-    """Turns the model's soft mask into one solid, tidy piece of furniture."""
+def clean_mask(image, alpha, opts=None):
+    """Turns the model's soft mask into one solid, tidy piece of furniture.
+
+    opts (used by tools/fix.py for hand fixes): wall (colour distance for wall
+    patches, 0 turns the rule off), min_part (smallest separate part kept, as a
+    share of the biggest), fill (fill every enclosed hole), erase / keep (lists of
+    [x0, y0, x1, y1] boxes as fractions of the photo).
+    """
+    opts = opts or {}
     mask = (alpha > 0.5).astype(np.uint8)
     mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
     count, labels, stats, _ = cv2.connectedComponentsWithStats(mask, 8)
@@ -63,7 +71,7 @@ def clean_mask(image, alpha):
     biggest = stats[1:, cv2.CC_STAT_AREA].max()
     keep = np.zeros_like(mask)
     for index in range(1, count):
-        if stats[index, cv2.CC_STAT_AREA] >= biggest * 0.05:
+        if stats[index, cv2.CC_STAT_AREA] >= biggest * opts.get("min_part", 0.05):
             keep[labels == index] = 1
 
     lab, colours = background_colours(image, keep)
@@ -80,28 +88,35 @@ def clean_mask(image, alpha):
         touches_edge = x == 0 or y == 0 or x + w == keep.shape[1] or y + h == keep.shape[0]
         if touches_edge:
             continue
-        if area < total * 0.0005 or np.median(near_background[labels == index]) > 11:
+        if opts.get("fill") or area < total * 0.0005 or np.median(near_background[labels == index]) > 11:
             keep[labels == index] = 1
 
     # A large wall-coloured patch inside the shape is an open gap the model
     # filled in, such as the space between a sideboard's two tiers.
-    wall = ((near_background < 9.5) & (keep == 1)).astype(np.uint8)
+    wall = ((near_background < opts.get("wall", 9.5)) & (keep == 1)).astype(np.uint8)
     wall = cv2.morphologyEx(wall, cv2.MORPH_OPEN, np.ones((7, 7), np.uint8))
     count, labels, stats, _ = cv2.connectedComponentsWithStats(wall, 4)
     for index in range(1, count):
         if stats[index, cv2.CC_STAT_AREA] >= total * 0.012:
             patch = cv2.dilate((labels == index).astype(np.uint8), np.ones((5, 5), np.uint8))
             keep[patch == 1] = 0
+
+    h, w = keep.shape
+    for x0, y0, x1, y1 in opts.get("keep", []):
+        box = (slice(int(y0 * h), int(y1 * h)), slice(int(x0 * w), int(x1 * w)))
+        keep[box] = np.maximum(keep[box], (near_background[box] > 12).astype(np.uint8))
+    for x0, y0, x1, y1 in opts.get("erase", []):
+        keep[int(y0 * h):int(y1 * h), int(x0 * w):int(x1 * w)] = 0
     return keep
 
 
-def cutout(image, session):
+def cutout(image, session, opts=None):
     """Returns a trimmed RGBA array of the furniture, or None if nothing was found."""
     from rembg import remove
 
     rgb = Image.fromarray(image[:, :, ::-1])
     alpha = np.asarray(remove(rgb, session=session))[:, :, 3].astype(np.float32) / 255
-    keep = clean_mask(image, alpha)
+    keep = clean_mask(image, alpha, opts)
     if keep is None or keep.sum() < keep.size * 0.02:
         return None
 
@@ -154,7 +169,10 @@ def main():
     limit = int(pathlib.Path("limit.txt").read_text().strip() or 0)
     OUT.mkdir(exist_ok=True)
     photos = stock_photos()
-    todo = [p for p in photos if not (OUT / f"{p.split('~')[0]}.webp").exists()]
+    fixes = pathlib.Path("fixes.json")
+    dropped = {k for k, v in json.loads(fixes.read_text()).items() if v.get("drop")} if fixes.exists() else set()
+    todo = [p for p in photos
+            if p.split("~")[0] not in dropped and not (OUT / f"{p.split('~')[0]}.webp").exists()]
     print(f"{len(photos)} photos in stock, {len(todo)} still need a cutout")
     if limit:
         todo = todo[:limit]
