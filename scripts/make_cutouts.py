@@ -94,10 +94,10 @@ def clean_mask(image, alpha, opts=None):
     # A large wall-coloured patch inside the shape is an open gap the model
     # filled in, such as the space between a sideboard's two tiers.
     wall = ((near_background < opts.get("wall", 9.5)) & (keep == 1)).astype(np.uint8)
-    wall = cv2.morphologyEx(wall, cv2.MORPH_OPEN, np.ones((7, 7), np.uint8))
+    wall = cv2.morphologyEx(wall, cv2.MORPH_OPEN, np.ones((opts.get("wall_open", 7),) * 2, np.uint8))
     count, labels, stats, _ = cv2.connectedComponentsWithStats(wall, 4)
     for index in range(1, count):
-        if stats[index, cv2.CC_STAT_AREA] >= total * 0.012:
+        if stats[index, cv2.CC_STAT_AREA] >= total * opts.get("wall_min", 0.012):
             patch = cv2.dilate((labels == index).astype(np.uint8), np.ones((5, 5), np.uint8))
             keep[patch == 1] = 0
 
