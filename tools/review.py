@@ -5,6 +5,8 @@ The score estimates how much wall or floor colour is left inside the cutout.
 """
 import csv
 import io
+import json
+import os
 import pathlib
 import re
 import sys
@@ -71,6 +73,11 @@ def main():
     OUT.mkdir(exist_ok=True)
     NAMES.update(full_names())
     ids = sorted(p.stem for p in CUT.glob("*.webp"))
+    prefix = "sheet"
+    if os.environ.get("ONLY_FIXES"):
+        fixed = json.loads(pathlib.Path("fixes.json").read_text())
+        ids = [i for i in ids if i in fixed]
+        prefix = "fix"
     with ThreadPoolExecutor(8) as pool:
         originals = list(pool.map(original, ids))
     rows = []
@@ -81,7 +88,7 @@ def main():
 
     font = ImageFont.load_default(size=22)
     per = ACROSS * DOWN
-    with open(OUT / "index.csv", "w", newline="") as f:
+    with open(OUT / f"{prefix}_index.csv", "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["number", "photo_id", "score"])
         for start in range(0, len(rows), per):
@@ -101,7 +108,7 @@ def main():
                 draw.rectangle([x, y, x + 2 * TILE - 1, y + TILE - 1], outline=(0, 0, 0), width=2)
                 draw.rectangle([x + 2, y + 2, x + 70, y + 30], fill=(0, 0, 0))
                 draw.text((x + 8, y + 4), str(number), fill=(255, 255, 0), font=font)
-            sheet.save(OUT / f"sheet_{start // per + 1:03d}.jpg", quality=80)
+            sheet.save(OUT / f"{prefix}_{start // per + 1:03d}.jpg", quality=80)
     print(f"{len(rows)} pieces on {(len(rows) + per - 1) // per} sheets")
 
 

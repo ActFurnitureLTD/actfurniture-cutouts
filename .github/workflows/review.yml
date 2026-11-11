@@ -2,6 +2,10 @@ name: Build cutout review sheets
 
 on:
   workflow_dispatch:
+    inputs:
+      only_fixes:
+        description: Only the hand-fixed pieces
+        default: ""
 
 permissions:
   contents: write
@@ -16,6 +20,8 @@ jobs:
           python-version: "3.12"
       - run: pip install -q opencv-python-headless pillow numpy
       - run: python tools/review.py
+        env:
+          ONLY_FIXES: ${{ inputs.only_fixes }}
       - run: |
           git config user.name "cutouts-bot"
           git config user.email "cutouts-bot@users.noreply.github.com"
