@@ -136,9 +136,11 @@ def clean_mask(image, alpha, opts=None):
         # Inside each box, remove anything pale and colourless (floor or wall), whatever its size.
         lab_c = cv2.cvtColor(image, cv2.COLOR_BGR2LAB).astype(np.int16)
         chroma_c = np.hypot(lab_c[:, :, 1] - 128, lab_c[:, :, 2] - 128)
-        for x0, y0, x1, y1 in opts["clear"]:
+        for entry in opts["clear"]:
+            x0, y0, x1, y1 = entry[:4]
+            max_chroma, min_light = (entry[4], entry[5]) if len(entry) == 6 else (16, 95)
             box = (slice(int(y0 * h), int(y1 * h)), slice(int(x0 * w), int(x1 * w)))
-            pale = (chroma_c[box] < 16) & (lab_c[:, :, 0][box] > 95)
+            pale = (chroma_c[box] < max_chroma) & (lab_c[:, :, 0][box] > min_light)
             pale = cv2.dilate(pale.astype(np.uint8), np.ones((3, 3), np.uint8)) == 1
             keep[box][pale] = 0
         count, labels, stats, _ = cv2.connectedComponentsWithStats(keep, 8)
