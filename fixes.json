@@ -70,6 +70,14 @@
   "model": "birefnet-general"
  },
  "86c0c7_0e18e79ffeef4346b996b0caee352fc6": {
+  "clear": [
+   [
+    0.1,
+    0.35,
+    0.95,
+    0.85
+   ]
+  ],
   "grey": {
    "chroma": 13,
    "light": 105,
@@ -117,6 +125,14 @@
   "model": "birefnet-general"
  },
  "86c0c7_127bfd51009d4d4cb6671501711de7a4": {
+  "clear": [
+   [
+    0.05,
+    0.55,
+    0.97,
+    0.9
+   ]
+  ],
   "grey": {
    "chroma": 13,
    "light": 105,
@@ -272,6 +288,14 @@
   "wall": 0
  },
  "86c0c7_3587d092e07b4596819c0ac5c365c54b": {
+  "clear": [
+   [
+    0.15,
+    0.6,
+    0.85,
+    0.95
+   ]
+  ],
   "grey": {
    "chroma": 13,
    "light": 105,
@@ -290,6 +314,14 @@
   "model": "birefnet-general"
  },
  "86c0c7_3738aa1fed834d459be752a4b0a0f8f9": {
+  "clear": [
+   [
+    0.25,
+    0.45,
+    0.75,
+    0.75
+   ]
+  ],
   "grey": {
    "chroma": 13,
    "light": 105,
@@ -330,6 +362,14 @@
   "model": "birefnet-general"
  },
  "86c0c7_3e9f5b3240bd4f25aced7a86dc02dab4": {
+  "clear": [
+   [
+    0.15,
+    0.75,
+    0.85,
+    0.97
+   ]
+  ],
   "grey": {
    "chroma": 13,
    "light": 105,
@@ -402,6 +442,14 @@
   "drop": true
  },
  "86c0c7_50ed5f2a32c749b6818c4d52ff6bc115": {
+  "clear": [
+   [
+    0.15,
+    0.08,
+    0.85,
+    0.55
+   ]
+  ],
   "model": "birefnet-general",
   "wall": 0
  },
@@ -414,6 +462,14 @@
   "model": "birefnet-general"
  },
  "86c0c7_5240edf06cb74a6eac00b70d15e8e28c": {
+  "clear": [
+   [
+    0.15,
+    0.55,
+    0.85,
+    0.9
+   ]
+  ],
   "grey": {
    "chroma": 13,
    "light": 105,
@@ -482,6 +538,14 @@
   "model": "birefnet-general"
  },
  "86c0c7_5efd1c335e38457688823369842af646": {
+  "clear": [
+   [
+    0.1,
+    0.72,
+    0.9,
+    0.98
+   ]
+  ],
   "grey": {
    "chroma": 13,
    "light": 105,
@@ -561,6 +625,14 @@
   "model": "birefnet-general"
  },
  "86c0c7_7164411af2ec408482114d74077e050f": {
+  "clear": [
+   [
+    0.15,
+    0.35,
+    0.85,
+    0.85
+   ]
+  ],
   "grey": {
    "chroma": 13,
    "light": 105,
@@ -618,6 +690,14 @@
   "model": "birefnet-general"
  },
  "86c0c7_7cf93cca286446e4ace7d10c0a599b6d": {
+  "clear": [
+   [
+    0.15,
+    0.45,
+    0.9,
+    0.95
+   ]
+  ],
   "grey": {
    "chroma": 13,
    "light": 105,
@@ -709,6 +789,14 @@
   "model": "birefnet-general"
  },
  "86c0c7_91c5f355bfd0429fb5e93584541a66fb": {
+  "clear": [
+   [
+    0.15,
+    0.62,
+    0.85,
+    0.92
+   ]
+  ],
   "grey": {
    "chroma": 13,
    "light": 105,
@@ -897,10 +985,26 @@
   "model": "birefnet-general"
  },
  "86c0c7_c4a25e9e9d934b459e6724a90f443413": {
+  "clear": [
+   [
+    0.2,
+    0.25,
+    0.8,
+    0.7
+   ]
+  ],
   "model": "birefnet-general",
   "wall": 0
  },
  "86c0c7_c592148cb3d74c34a89cee800fbde996": {
+  "clear": [
+   [
+    0.15,
+    0.5,
+    0.85,
+    0.85
+   ]
+  ],
   "grey": {
    "chroma": 13,
    "light": 105,
@@ -1107,6 +1211,14 @@
   "model": "birefnet-general"
  },
  "86c0c7_f5133baf2b0f4438863db8169ca6a251": {
+  "clear": [
+   [
+    0.15,
+    0.35,
+    0.85,
+    0.75
+   ]
+  ],
   "grey": {
    "chroma": 13,
    "light": 105,

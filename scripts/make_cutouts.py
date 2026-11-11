@@ -132,6 +132,20 @@ def clean_mask(image, alpha, opts=None):
         count, labels, stats, _ = cv2.connectedComponentsWithStats(keep, 8)
         if count > 1:
             keep = (labels == 1 + np.argmax(stats[1:, cv2.CC_STAT_AREA])).astype(np.uint8)
+    if opts.get("clear"):
+        # Inside each box, remove anything pale and colourless (floor or wall), whatever its size.
+        lab_c = cv2.cvtColor(image, cv2.COLOR_BGR2LAB).astype(np.int16)
+        chroma_c = np.hypot(lab_c[:, :, 1] - 128, lab_c[:, :, 2] - 128)
+        for x0, y0, x1, y1 in opts["clear"]:
+            box = (slice(int(y0 * h), int(y1 * h)), slice(int(x0 * w), int(x1 * w)))
+            pale = (chroma_c[box] < 16) & (lab_c[:, :, 0][box] > 95)
+            pale = cv2.dilate(pale.astype(np.uint8), np.ones((3, 3), np.uint8)) == 1
+            keep[box][pale] = 0
+        count, labels, stats, _ = cv2.connectedComponentsWithStats(keep, 8)
+        if count > 1:
+            biggest = stats[1:, cv2.CC_STAT_AREA].max()
+            small = [i for i in range(1, count) if stats[i, cv2.CC_STAT_AREA] < biggest * 0.01]
+            keep[np.isin(labels, small)] = 0
     for x0, y0, x1, y1 in opts.get("erase", []):
         keep[int(y0 * h):int(y1 * h), int(x0 * w):int(x1 * w)] = 0
     return keep
