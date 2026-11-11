@@ -213,7 +213,9 @@ def main():
     OUT.mkdir(exist_ok=True)
     photos = stock_photos()
     fixes = pathlib.Path("fixes.json")
-    dropped = {k for k, v in json.loads(fixes.read_text()).items() if v.get("drop")} if fixes.exists() else set()
+    # Blocks on purpose, and pieces cut from a different photo (tools/fix.py makes those).
+    dropped = {k for k, v in json.loads(fixes.read_text()).items()
+               if v.get("drop") or v.get("source")} if fixes.exists() else set()
     todo = [p for p in photos
             if p.split("~")[0] not in dropped and not (OUT / f"{p.split('~')[0]}.webp").exists()]
     print(f"{len(photos)} photos in stock, {len(todo)} still need a cutout")

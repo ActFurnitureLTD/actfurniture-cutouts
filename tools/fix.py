@@ -5,6 +5,8 @@ fixes.json maps a photo id to its settings, for example
                   "erase": [[0.1, 0.0, 0.4, 0.2]]}}
 "model" picks the background-removal model (default isnet-general-use).
 "drop": true deletes the cutout, so the page shows a plain block instead.
+"source": "86c0c7_xyz~mv2.jpg" cuts from another photo of the same product (for example
+one chair from a set) but saves it under the main photo's id, which is what the page uses.
 Every other key is passed to clean_mask (see scripts/make_cutouts.py).
 
 Only pieces listed in todo.txt are redone (all of fixes.json if it's empty).
@@ -49,7 +51,7 @@ def main():
         model = opts.pop("model", "isnet-general-use")
         if model not in sessions:
             sessions[model] = new_session(model)
-        name = names.get(photo_id, f"{photo_id}~mv2.jpeg")
+        name = opts.pop("source", None) or names.get(photo_id, f"{photo_id}~mv2.jpeg")
         url = f"https://static.wixstatic.com/media/{name}/v1/fit/w_800,h_800,q_90/photo.jpg"
         request = urllib.request.Request(url, headers={"User-Agent": "actfurniture-cutouts/1.0"})
         with urllib.request.urlopen(request, timeout=60) as response:
