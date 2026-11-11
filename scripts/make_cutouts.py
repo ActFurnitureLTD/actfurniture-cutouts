@@ -102,6 +102,24 @@ def clean_mask(image, alpha, opts=None):
             keep[patch == 1] = 0
 
     h, w = keep.shape
+    grey = opts.get("grey")
+    if grey is not None:
+        # Pale, colourless patches are wall or floor showing through; wood is never that colour.
+        lab_u8 = cv2.cvtColor(image, cv2.COLOR_BGR2LAB).astype(np.int16)
+        chroma = np.hypot(lab_u8[:, :, 1] - 128, lab_u8[:, :, 2] - 128)
+        pale = ((chroma < grey.get("chroma", 11)) & (lab_u8[:, :, 0] > grey.get("light", 115)) & (keep == 1)).astype(np.uint8)
+        pale[: int(h * grey.get("from", 0.0))] = 0
+        pale = cv2.morphologyEx(pale, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
+        rows = np.where(keep.any(axis=1))[0]
+        top, height = rows.min(), rows.max() - rows.min() + 1
+        count, labels, stats, _ = cv2.connectedComponentsWithStats(pale, 4)
+        for index in range(1, count):
+            # A pale patch starting in the top band is usually a shiny table top, so leave it.
+            if stats[index, cv2.CC_STAT_TOP] < top + height * grey.get("skip_top", 0.2):
+                continue
+            if stats[index, cv2.CC_STAT_AREA] >= total * grey.get("min", 0.002):
+                patch = cv2.dilate((labels == index).astype(np.uint8), np.ones((3, 3), np.uint8))
+                keep[patch == 1] = 0
     for x0, y0, x1, y1 in opts.get("keep", []):
         box = (slice(int(y0 * h), int(y1 * h)), slice(int(x0 * w), int(x1 * w)))
         keep[box] = np.maximum(keep[box], (near_background[box] > 12).astype(np.uint8))
